@@ -1,6 +1,5 @@
-CONTIKI_PROJECT = hello-world
+CONTIKI_PROJECT = se
 all: $(CONTIKI_PROJECT)
 
 CONTIKI = ../..
-CFLAGS += -g
 include $(CONTIKI)/Makefile.include
